@@ -8,3 +8,34 @@
   --dark-blue: hsl(235, 16%, 14%);
   --black: hsl(234, 17%, 12%);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--white);
+  background-image: linear-gradient(
+    to bottom,
+    #16051f,
+    #190a22,
+    #1b0e26,
+    #1e1129,
+    #21142d
+  );
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./media/bg-stars.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
