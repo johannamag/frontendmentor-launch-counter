@@ -144,3 +144,53 @@ section {
 .attribution a:hover {
   color: var(--white);
 }
+
+@media screen and (max-width: 741px) {
+  .card {
+    width: 100px;
+    height: 110px;
+  }
+  .number {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .card {
+    width: 70px;
+    height: 80px;
+    box-shadow: 4px 4px 0px var(--black);
+  }
+  .number {
+    font-size: 2rem;
+  }
+  .desc {
+    font-size: 0.6rem;
+  }
+  .days,
+  .hours,
+  .minutes {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .card {
+    width: 50px;
+    height: 60px;
+    box-shadow: 4px 4px 0px var(--black);
+  }
+  .number {
+    font-size: 1.5rem;
+  }
+  .desc {
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+  }
+  .attribution {
+    text-align: center;
+  }
+  .heading {
+    text-align: center;
+  }
+}
