@@ -48,3 +48,99 @@ section {
   background-size: contain;
   background-position: bottom center;
 }
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+.countdown {
+  display: flex;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.card {
+  width: 150px;
+  height: 160px;
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 7px 7px 0px var(--black);
+}
+
+.desc {
+  text-transform: uppercase;
+  color: var(--gray-blue);
+  letter-spacing: 4px;
+}
+
+.number {
+  font-size: 5rem;
+  color: var(--red);
+}
+
+.seconds {
+  margin-right: 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon:last-child {
+  margin-right: 0;
+}
+
+.icon:hover {
+  filter: contrast(200%) brightness(150%);
+}
+
+.attribution {
+  margin-top: 150px;
+}
+
+.attribution a {
+  color: var(--red);
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.attribution a:hover {
+  color: var(--white);
+}
